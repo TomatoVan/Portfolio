@@ -14,6 +14,12 @@
     width: 1140px;
     margin: 0 auto;
 }
+.divider {
+    margin: 25px auto 0 auto;
+    width: 57px;
+    height: 3px;
+    background-color: $main-color;
+}
 
 @import "blocks/promo";
 @import "blocks/title";
@@ -23,3 +29,5 @@
 @import "blocks/about";
 @import "blocks/circle";
 @import "blocks/menu";
+@import "blocks/resume";
+@import "blocks/skills";

@@ -20,11 +20,8 @@
     &__name {
         margin-top: 6px;
     }
-    &__divider {
-        margin-top: 4px;
-        width: 57px;
-        height: 3px;
-        background-color: $main-color;
+    .divider {
+        margin: 0;
     }
     &__text {
         margin-top: 20px;
