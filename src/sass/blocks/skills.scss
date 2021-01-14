@@ -1,18 +1,5 @@
 .skills {
     padding-top: 120px;
-    &__title {
-        position: relative;
-        text-align: center;
-        @include before_circle;
-        &:before {
-            top: -6px;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-    }
-    &__subtitle {
-        text-align: center;
-    }
     &__wrapper {
         padding-top: 60px;
         display: grid;
@@ -52,5 +39,19 @@
             display: flex;
             justify-content: space-between;
         }
+        &-bar {
+            margin-top: 27px;
+            width: 350px;
+            height: 14px;
+            background-color: #e8e4de;
+            border-radius: 4px;
+            span {
+                display: block;
+                height: 100%;
+                background-color: $main-color;
+                border-radius: 4px;
+            }
+        }
     }
+
 }
