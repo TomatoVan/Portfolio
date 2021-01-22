@@ -5,6 +5,8 @@
         display: grid;
         grid-template-columns: repeat(2, 425px);
         column-gap: 135px;
+        justify-items: center;
+        justify-content: center;
     }
     &__column {
         &-title {
@@ -56,6 +58,8 @@
         &-body {
             padding-left: 43px;
             margin-top: 12px;
+            
+            
         }
         &-icon {
             position: absolute;
