@@ -1,12 +1,20 @@
 const hamburger = document.querySelector('.hamburger'),
       menu = document.querySelector('.menu'),
       close = document.querySelector('.menu__close');
+      link = document.querySelector('.menu__list');
+      form = document.getElementById("MyForm").submit();
 
 hamburger.addEventListener('click',() => {
     menu.classList.add('active');
 });
 
+
 close.addEventListener('click',() => {
+    menu.classList.remove('active');
+});
+
+
+link.addEventListener('click',() => {
     menu.classList.remove('active');
 });
 
@@ -17,3 +25,12 @@ const num = document.querySelectorAll('.skills_item2-num'),
 num.forEach((item, i) => {
     lines[i].style.width = item.innerHTML;
 });
+
+
+arrowTop.onclick = function() {
+    window.scrollTo (pageXOffset, 0);
+};
+window.addEventListener ('scroll', function(){
+    arrowTop.hidden = (pageYOffset < document.documentElement.clientHeight);
+});
+
