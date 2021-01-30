@@ -1,6 +1,6 @@
 const hamburger = document.querySelector('.hamburger'),
       menu = document.querySelector('.menu'),
-      close = document.querySelector('.menu__close');
+      close = document.querySelector('.menu__close'),
       link = document.querySelector('.menu__list');
 
       
